@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-24T08:51:59.976Z</updated>
+  <updated>2020-12-29T14:27:16.043Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习笔记:css盒模型</title>
+    <link href="http://example.com/2020/12/29/css%E7%9B%92%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://example.com/2020/12/29/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</id>
+    <published>2020-12-29T14:21:50.000Z</published>
+    <updated>2020-12-29T14:27:16.043Z</updated>
+    
+    <content type="html"><![CDATA[<p>css盒子模型的基本概念：</p><a id="more"></a><p>首先，我们来了解一下css盒模型的基本概念：</p><p>CSS盒模型本质上是一个盒子，封装周围的HTML元素，它包括：边距，边框，填充，和实际内容。盒模型允许我们在其它元素和周围元素边框之间的空间放置元素。 分别两种盒型<strong>标准盒模型</strong>和<strong>IE盒模</strong></p><h2>盒子大小</h2><div>盒子的宽度 = 内容宽度 + 左填充 + 右填充 + 左边框 + 右边框 + 左边距 + 右边距</div><div>盒子的高度 = 内容高度 + 上填充 + 下填充 + 上边框 + 下边框 + 上边距 + 下边距</div><h2>标准盒模型和IE盒模型区别</h2><ul><li>标准盒模型:content=content</li></ul><p><img src="https://img-blog.csdnimg.cn/20200222185449952.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20200222185449952.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></img></p><ul><li>IE盒模型:content = width+padding+border</li></ul><p><img src="https://img-blog.csdnimg.cn/20200222185613912.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20200222185613912.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></img></p><h2>css如何设置这两种模型</h2><ul><li>通过css中的box-sizing属性</li><li><input checked="" disabled="" type="checkbox"> 标准盒模型 ：content-box</li><li><input checked="" disabled="" type="checkbox"> IE盒模型 ： border-box</li></ul><h2>JS如何获取盒模型对应的宽和高</h2><ul><li>node.style.height/width</li></ul><blockquote><div>这种方式只能取到dom元素内嵌样式的宽和高，通过外联样式link引入和在style标签中设置的样式这两者都是获取不到node的宽和高的</div></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style=<span class="string">&quot;width:100px;height:50px&quot;</span> id=<span class="string">&quot;agoni&quot;</span>&gt;agoni&lt;/div&gt;</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">&quot;agoni&quot;</span>).style.width =<span class="string">&quot;200px&quot;</span>;</span><br></pre></td></tr></table></figure><blockquote><div>1、只能操作行内样式；</div><div>2、只包括内容区，不包括border和padding部分(只有content)；</div><div>3、返回值带单位，返回值的数据类型是string。</div></blockquote><ul><li>node.currentStyle.width/height(只有ie支持)</li></ul><blockquote><div>这种方式是获取渲染后的结果，但只在旧版本的IE浏览器中支持，该特性是非标准的，尽量不要在生产环境中使用它。style、内联、外联样式均支付；返回值带单位，返回值的数据类型是string；可惜只有IE支持。</div></blockquote><ul><li>window.getComputedStyle(node).width/height</li></ul><blockquote><div>window.getComputedStyle()方法返回一个对象</div><div>返回值带单位，返回值的数据类型是string。</div></blockquote><p><img src="https://img-blog.csdnimg.cn/20200222190150407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20200222190150407.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></img></p><ul><li>node.getBoundingClientRect().width/height</li></ul><blockquote><div>1、返回元素的大小及其 只相对于可视去窗口。包含<font color="red">边框(border)</font>、<font color="red">内边距(padding)</font>以及CSS设置的<font color="red">宽度(width)</font>值</div></blockquote><blockquote><div>2、返回值不带单位，返回值的数据类型是number。</div></blockquote><p><img src="https://img-blog.csdnimg.cn/20200222190948324.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20200222190948324.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></img></p><div align="center"><img src="https://img-blog.csdnimg.cn/20200222191043175.png" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20200222191043175.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></img></div><ul><li>node.offsetWidth/offsetHeight</li></ul><blockquote><div>1、包含元素的边框(border)、内边距(padding)、滚动条(scrollbar)（如果存在的话）、以及CSS设置的宽度(width)和高度（height）的值。</div></blockquote><blockquote><div>2、返回值不带单位，返回值的数据类型是number；</div></blockquote><blockquote><div>3、还有offsetHeight/Width、offsetLeft/Top</div></blockquote><blockquote><div>4、offset 的方向值需要考虑到父级，如果父级是定位元素，那么子元素的offset值相对于父元素，如果父元素不是定位元素，那么子元素的offset值相对于可视区窗口。</div></blockquote><div align="center"><img src="https://img-blog.csdnimg.cn/20200222191206328.png" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20200222191206328.png" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg"></img></div><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;css盒子模型的基本概念：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="html" scheme="http://example.com/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>🚊 2021春运日程&amp;抢购建议</title>
+    <link href="http://example.com/2020/12/29/2021%E6%98%A5%E8%BF%90%E6%97%A5%E7%A8%8B-%E6%8A%A2%E8%B4%AD%E5%BB%BA%E8%AE%AE/"/>
+    <id>http://example.com/2020/12/29/2021%E6%98%A5%E8%BF%90%E6%97%A5%E7%A8%8B-%E6%8A%A2%E8%B4%AD%E5%BB%BA%E8%AE%AE/</id>
+    <published>2020-12-29T12:28:10.000Z</published>
+    <updated>2020-12-29T13:27:06.670Z</updated>
+    
+    <content type="html"><![CDATA[<p>2021 春运购票日程 &amp; 抢购建议</p><p>📢 从明天（12月30日）开始，大家即可开始购买春运首日（1月28日）的火车票</p><p>🕒 春运时间：从2021年1月28日（腊月十六）开始，到2021年3月8日（正月二十五）结束，共计 40 天</p><a id="more"></a><p><img src="https://img-blog.csdnimg.cn/20201229203516892.JPG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI4NTAxMg==,size_16,color_FFFFFF,t_70#pic_center" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/20201229203516892.JPG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDI4NTAxMg==,size_16,color_FFFFFF,t_70#pic_center" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" alt="春运购票日程"></p><p>2021 春运购票日程 &amp; 抢购建议</p><p>📢 从明天（12月30日）开始，大家即可开始购买春运首日（1月28日）的火车票</p><p>🕒 春运时间：从2021年1月28日（腊月十六）开始，到2021年3月8日（正月二十五）结束，共计 40 天<br>🌟 购票渠道</p><p>1️⃣ 非线下：包含 12306 网站、12306 手机客户端、第三方客户端和 95105105 电话购票，预售期为 30 天。开放时间是每日早上 6 点至晚上 11 点</p><p>2️⃣ 线下：包含火车站售票窗口、自动售票机和代售点购票，预售期为 28 天。中国铁路网站和 APP 上也推出了“<a href="http://www.xinhuanet.com/fortune/2019-05/23/c_1124533444.htm">候补购票</a>”功能</p><p>😉 购票建议</p><p>• 根据出行日期，倒推 30 天（含出行当天）确定放票日期<br>• 查询拟出发车站对应的具体放票时间，查询方式为：打开官方 App，依次进入「全部应用」、「出行向导」、「起售时间」功能<br>• 在放票当天起售时间，提前 5 分钟登录官网或 App 端，使用浏览器购票可打开自动查询下单<br>• 若瞬间显示无票，则大概率区间限售，可往出发站前、到达站后多买几站<br>• 若未抢购到车票，第一时间提交车票候补，多人出行建议分别候补<br>• 若未能成功候补，如不顾忌个人信息泄漏风险，可使用第三方软件「双通道抢票」抢候补<br>• 临近发车、候补购票截止兑现后，优先推荐官网自动刷票，也可尝试第三方软件抢票<br>• 若时间充裕，可有选择地避开学生流等密集出行时期</p><p>⚙️ 抢票工具</p><p>① <a href="https://github.com/pjialin/">py12306</a>：开源工具，但长期未维护，希望作者近期及时跟进<br>② <a href="https://www.fishlee.net/soft/12306/">订票助手.NET</a>：维护积极，基于 .NET 构建的订票助手<br>③ <a href="https://www.bypass.cn/">12306 Bypass</a>：支持自动抢票、自动抢候补、自动识别验证码，支持多天、多车次、多席别、多乘客等功能</p><p>👀 最后，关于购票日历、学生订票、静音车厢、计次票 &amp; 定期票等问题，将引用 <a href="https://m.weibo.cn/status/JAEQFsKAT?jumpfrom=weibocom">央视新闻</a> 的图片</p><p>🎧 旅途漫长，一副耳塞或降噪耳机可以给你带来更好的休息体验。降噪耳塞分为海绵、硅胶与蜡丸等材质，可根据个人偏好选择不同的类型。根据主编体验，佩戴感优秀的安耳悠 Soft 系列和实惠的 3M 1100 均可</p><p>😷 此外，还要做好出行的个人疫情防护，戴好口罩，也可以提前准备一次性消毒湿巾、一次性床罩等物品</p><p>🏮 希望大家能够顺利订到驶向 2021 春节的票！</p><p>📘 关联阅读：<a href="https://www.v2ex.com/t/630255#reply8">春节火车票抢票经验总结</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;2021 春运购票日程 &amp;amp; 抢购建议&lt;/p&gt;
+&lt;p&gt;📢 从明天（12月30日）开始，大家即可开始购买春运首日（1月28日）的火车票&lt;/p&gt;
+&lt;p&gt;🕒 春运时间：从2021年1月28日（腊月十六）开始，到2021年3月8日（正月二十五）结束，共计 40 天&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="资讯自留地" scheme="http://example.com/categories/%E8%B5%84%E8%AE%AF%E8%87%AA%E7%95%99%E5%9C%B0/"/>
+    
+    <category term="life" scheme="http://example.com/categories/%E8%B5%84%E8%AE%AF%E8%87%AA%E7%95%99%E5%9C%B0/life/"/>
+    
+    
+    <category term="News" scheme="http://example.com/tags/News/"/>
+    
+  </entry>
   
   <entry>
     <title>学习笔记:JavaScript中var、let和const的区别</title>
