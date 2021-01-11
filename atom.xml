@@ -41,13 +41,13 @@
   </entry>
   
   <entry>
-    <title>🤖 Issues 助手：通过 GitHub Action 自动化管理 Issues</title>
-    <link href="http://example.com/2021/01/07/%F0%9F%A4%96-Issues-%E5%8A%A9%E6%89%8B%EF%BC%9A%E9%80%9A%E8%BF%87-GitHub-Action-%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86-Issues/"/>
-    <id>http://example.com/2021/01/07/%F0%9F%A4%96-Issues-%E5%8A%A9%E6%89%8B%EF%BC%9A%E9%80%9A%E8%BF%87-GitHub-Action-%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86-Issues/</id>
+    <title>Issues 助手：通过 GitHub Action 自动化管理 Issues</title>
+    <link href="http://example.com/2021/01/07/Issues-%E5%8A%A9%E6%89%8B%EF%BC%9A%E9%80%9A%E8%BF%87-GitHub-Action-%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86-Issues/"/>
+    <id>http://example.com/2021/01/07/Issues-%E5%8A%A9%E6%89%8B%EF%BC%9A%E9%80%9A%E8%BF%87-GitHub-Action-%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AE%A1%E7%90%86-Issues/</id>
     <published>2021-01-07T14:11:53.000Z</published>
-    <updated>2021-01-11T14:24:14.555Z</updated>
+    <updated>2021-01-11T15:39:58.026Z</updated>
     
-    <content type="html"><![CDATA[<p>Issues小助手</p><a id="more"></a><p><a href="https://github.com/actions-cool/issues-helper">GitHub</a> | <a href="https://actions-cool.github.io/issues-helper/">Wiki </a></p><p>👉 Features：</p><ul><li>基于 GitHub Action，自动化 &amp; 免费</li><li>支持多种场景的自动化 Issues 管理与操作</li></ul><p>部署详见 <a href="https://actions-cool.github.io/issues-helper/guide/start">快速开始</a>，该项目支持多种场景：关闭 Issues、为 Issues 打标签、删除指定评论、标注重复 Issues、生成每月统计等。一定程度上可以方便一些大项目的开发者管理 Issues，代劳处理一些机械工作</p><p>同类项目还有 <a href="https://github.com/machine-learning-apps/Issue-Label-Bot">Issue-Label-Bot</a>，通过机器学习为新 Issues 打上标签，并提供反馈机制以便纠正。但 Bots 终究是 Bots，最终解决 Issues 还是要靠人。如果你的项目日均产生数量可观的 Issues，不妨先使用这些工具进行粗加工ß</p>]]></content>
+    <content type="html"><![CDATA[<p>Issues小助手</p><a id="more"></a><p><a href="https://github.com/actions-cool/issues-helper">GitHub</a> | <a href="https://actions-cool.github.io/issues-helper/">Wiki</a></p><p>👉 Features：</p><ul><li>基于 GitHub Action，自动化 &amp; 免费</li><li>支持多种场景的自动化 Issues 管理与操作</li></ul><p>部署详见 <a href="https://actions-cool.github.io/issues-helper/guide/start">快速开始</a>，该项目支持多种场景：关闭 Issues、为 Issues 打标签、删除指定评论、标注重复 Issues、生成每月统计等。一定程度上可以方便一些大项目的开发者管理 Issues，代劳处理一些机械工作</p><p>同类项目还有 <a href="https://github.com/machine-learning-apps/Issue-Label-Bot">Issue-Label-Bot</a>，通过机器学习为新 Issues 打上标签，并提供反馈机制以便纠正。但 Bots 终究是 Bots，最终解决 Issues 还是要靠人。如果你的项目日均产生数量可观的 Issues，不妨先使用这些工具进行粗加工ß</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;Issues小助手&lt;/p&gt;</summary>
@@ -61,12 +61,12 @@
   
   <entry>
     <title>💻 MacIndex：Android 平台的 Mac（机型）参数索引软件</title>
-    <link href="http://example.com/2021/01/05/%F0%9F%92%BB-MacIndex%EF%BC%9AAndroid-%E5%B9%B3%E5%8F%B0%E7%9A%84-Mac%EF%BC%88%E6%9C%BA%E5%9E%8B%EF%BC%89%E5%8F%82%E6%95%B0%E7%B4%A2%E5%BC%95%E8%BD%AF%E4%BB%B6/"/>
-    <id>http://example.com/2021/01/05/%F0%9F%92%BB-MacIndex%EF%BC%9AAndroid-%E5%B9%B3%E5%8F%B0%E7%9A%84-Mac%EF%BC%88%E6%9C%BA%E5%9E%8B%EF%BC%89%E5%8F%82%E6%95%B0%E7%B4%A2%E5%BC%95%E8%BD%AF%E4%BB%B6/</id>
+    <link href="http://example.com/2021/01/05/MacIndex%EF%BC%9AAndroid-%E5%B9%B3%E5%8F%B0%E7%9A%84-Mac%EF%BC%88%E6%9C%BA%E5%9E%8B%EF%BC%89%E5%8F%82%E6%95%B0%E7%B4%A2%E5%BC%95%E8%BD%AF%E4%BB%B6/"/>
+    <id>http://example.com/2021/01/05/MacIndex%EF%BC%9AAndroid-%E5%B9%B3%E5%8F%B0%E7%9A%84-Mac%EF%BC%88%E6%9C%BA%E5%9E%8B%EF%BC%89%E5%8F%82%E6%95%B0%E7%B4%A2%E5%BC%95%E8%BD%AF%E4%BB%B6/</id>
     <published>2021-01-05T14:06:03.000Z</published>
-    <updated>2021-01-11T14:25:16.702Z</updated>
+    <updated>2021-01-11T15:41:25.690Z</updated>
     
-    <content type="html"><![CDATA[<p>介绍一款关于苹果麦金塔电脑的参数汇总的APP</p><a id="more"></a><p>💻 MacIndex：Android 平台的 Mac（机型）参数索引软件</p><p><a href="https://github.com/paizhangpi/MacIndex">GitHub</a> | <a href="https://macindex.paizhang.info/frequently-asked-questions">Wiki</a> | <a href="https://github.com/paizhangpi/MacIndex/releases/tag/v4.5.1">Download </a></p><p>👉 Features：</p><ul><li>提供从 1984 年第一代 Macintosh 电脑开始，到最新的 Apple Silicon ARM 机型，包括一体机、卧式电脑、塔式电脑、笔记本电脑在内的数百余种机型</li><li>包含多种参数，包括示例图片、时间、型号、标识符、处理器信息、显卡与显示、内存、固件、软件、存储、扩展性、设计、售后状态查询</li><li>按照体系结构进行分组筛选，支持按照产品系列、处理器、推出年代浏览</li><li>试听启动音和宕机音（如果有）</li><li>按照多种标识符进行搜索，包括名称、型号、型号标识符、形态标识符、订单编号、EMC 编号，还支持按照体系结构分组筛选搜索结果</li><li>开源、干净、透明，且无需任何特殊权限</li></ul><p>⭐️ 这个软件是知乎专栏《[老 Mac 与 MacOS 收藏] (<a href="https://www.zhihu.com/column/classicMac)%E3%80%8B%E4%B8%BB%E7%90%86%E4%BA%BA%E8%BF%91%E6%97%A5%E5%8F%91%E5%B8%83%E7%9A%84%EF%BC%8C%E5%A1%AB%E8%A1%A5%E4%BA%86">https://www.zhihu.com/column/classicMac)》主理人近日发布的，填补了</a> Android 平台没有 Mac 机型参数查询软件的空白。像 macOS 和 iOS 上的 Mactracker 一样，MacIndex 详细列举了历代 Mac 个人电脑的参数情况，还加入了启动音和宕机音试听，非常有趣</p><p>❓ 在使用的过程中，我遇到了 Wiki 中说的「页面加载缓慢」的问题，希望软件得到进一步优化。也可以模仿 Mactracker，在列表里加入更直观的缩略图。MacIndex 整体的工程量是不小的，做过 MacBook Pro 机型表格的我深有体会</p><p>📱 所以对 Mac 历史感兴趣的朋友们不妨去了解一下这款软件，可以帮助我们在写作或者聊天中，不会因为误用机型名称和叫法而贻笑大方。当然，Mactracker 已经足够优秀，MacIndex 则带来了了中文体验、并为 Android 提供了便利</p>]]></content>
+    <content type="html"><![CDATA[<p>介绍一款关于苹果麦金塔电脑的参数汇总的APP</p><a id="more"></a><p>💻 MacIndex：Android 平台的 Mac（机型）参数索引软件</p><p><a href="https://github.com/paizhangpi/MacIndex">GitHub</a> | <a href="https://macindex.paizhang.info/frequently-asked-questions">Wiki</a> | <a href="https://github.com/paizhangpi/MacIndex/releases/tag/v4.5.1">Download </a></p><p>👉 Features：</p><ul><li>提供从 1984 年第一代 Macintosh 电脑开始，到最新的 Apple Silicon ARM 机型，包括一体机、卧式电脑、塔式电脑、笔记本电脑在内的数百余种机型</li><li>包含多种参数，包括示例图片、时间、型号、标识符、处理器信息、显卡与显示、内存、固件、软件、存储、扩展性、设计、售后状态查询</li><li>按照体系结构进行分组筛选，支持按照产品系列、处理器、推出年代浏览</li><li>试听启动音和宕机音（如果有）</li><li>按照多种标识符进行搜索，包括名称、型号、型号标识符、形态标识符、订单编号、EMC 编号，还支持按照体系结构分组筛选搜索结果</li><li>开源、干净、透明，且无需任何特殊权限</li></ul><p>⭐️ 这个软件是知乎专栏《<a href="https://www.zhihu.com/column/classicMac">老 Mac 与 MacOS 收藏</a>》主理人近日发布的，填补了 Android 平台没有 Mac 机型参数查询软件的空白。像 macOS 和 iOS 上的 Mactracker 一样，MacIndex 详细列举了历代 Mac 个人电脑的参数情况，还加入了启动音和宕机音试听，非常有趣</p><p>❓ 在使用的过程中，我遇到了 Wiki 中说的「页面加载缓慢」的问题，希望软件得到进一步优化。也可以模仿 Mactracker，在列表里加入更直观的缩略图。MacIndex 整体的工程量是不小的，做过 MacBook Pro 机型表格的我深有体会</p><p>📱 所以对 Mac 历史感兴趣的朋友们不妨去了解一下这款软件，可以帮助我们在写作或者聊天中，不会因为误用机型名称和叫法而贻笑大方。当然，Mactracker 已经足够优秀，MacIndex 则带来了了中文体验、并为 Android 提供了便利</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;介绍一款关于苹果麦金塔电脑的参数汇总的APP&lt;/p&gt;</summary>
@@ -87,9 +87,9 @@
     <link href="http://example.com/2021/01/02/Inside%EF%BC%9A%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E8%80%8C%E6%89%81%E5%B9%B3%E7%9A%84-Hexo-%E4%B8%BB%E9%A2%98%EF%BC%88%E5%8F%8A%E5%85%B6-VuePress-%E7%A7%BB%E6%A4%8D%E7%89%88%E6%9C%AC%EF%BC%89/"/>
     <id>http://example.com/2021/01/02/Inside%EF%BC%9A%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E8%80%8C%E6%89%81%E5%B9%B3%E7%9A%84-Hexo-%E4%B8%BB%E9%A2%98%EF%BC%88%E5%8F%8A%E5%85%B6-VuePress-%E7%A7%BB%E6%A4%8D%E7%89%88%E6%9C%AC%EF%BC%89/</id>
     <published>2021-01-02T14:15:55.000Z</published>
-    <updated>2021-01-11T14:24:27.542Z</updated>
+    <updated>2021-01-11T15:39:17.499Z</updated>
     
-    <content type="html"><![CDATA[<p>一个简洁而扁平的 Hexo 主题</p><a id="more"></a><p><a href="https://github.com/ikeq/hexo-theme-inside">GitHub</a> | <a href="https://blog.oniuo.com/post/inside-theme-showcase">Demo </a> | <a href="https://github.com/ikeq/hexo-theme-inside/blob/master/README_zh-Hans.md">Wiki</a></p><p>👉 Features：</p><ul><li>SPA（单页面应用：一点到底）</li><li>自定义色调、背景、字体、暗色主题</li><li>支持 Disqus、LiveRe 等评论插件</li><li>增强的文章展示</li><li>PWA 沉浸式设计、支持离线</li></ul><p>很之前介绍的很多主题一样，采用了左右分栏式设计，右侧大块空间用来展示博客内容。SPA 和滚动/翻页时右下角流畅的动画带给我很不错的体验，左下角提供了一些背景和元素的颜色 DIY 选项。个人认为后者是一款「简洁」主题中不那么简洁的部分，或许可以提供一个 Settings 选项</p><p>👀 而 Inside 的 VuePress 移植版本叫做 <a href="https://github.com/80maker/80maker.github.io">1980’s Maker</a>，在保留原汁原味设计的同时，引入了 RSS 订阅及 Sitemap。移植版没有加入访客自定义主题的选项，同时左下角的元素发生了重叠，还有改进的空间。同样半成品的地方还有右下角的选项圆点，点击内容无反应</p>]]></content>
+    <content type="html"><![CDATA[<p>一个简洁而扁平的 Hexo 主题</p><a id="more"></a><p><a href="https://github.com/ikeq/hexo-theme-inside">GitHub</a> | <a href="https://blog.oniuo.com/post/inside-theme-showcase">Demo</a> | <a href="https://github.com/ikeq/hexo-theme-inside/blob/master/README_zh-Hans.md">Wiki</a></p><p>👉 Features：</p><ul><li>SPA（单页面应用：一点到底）</li><li>自定义色调、背景、字体、暗色主题</li><li>支持 Disqus、LiveRe 等评论插件</li><li>增强的文章展示</li><li>PWA 沉浸式设计、支持离线</li></ul><p>很之前介绍的很多主题一样，采用了左右分栏式设计，右侧大块空间用来展示博客内容。SPA 和滚动/翻页时右下角流畅的动画带给我很不错的体验，左下角提供了一些背景和元素的颜色 DIY 选项。个人认为后者是一款「简洁」主题中不那么简洁的部分，或许可以提供一个 Settings 选项</p><p>👀 而 Inside 的 VuePress 移植版本叫做 <a href="https://github.com/80maker/80maker.github.io">1980’s Maker</a>，在保留原汁原味设计的同时，引入了 RSS 订阅及 Sitemap。移植版没有加入访客自定义主题的选项，同时左下角的元素发生了重叠，还有改进的空间。同样半成品的地方还有右下角的选项圆点，点击内容无反应</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;一个简洁而扁平的 Hexo 主题&lt;/p&gt;</summary>
